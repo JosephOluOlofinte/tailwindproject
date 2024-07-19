@@ -3,7 +3,8 @@
 const Hero = () => {
     return (
         <div>
-Hero
+            <h1 className="h-screen bg-blue-200 text-gray-900">Hero</h1>
+
         </div>
     );
 };
