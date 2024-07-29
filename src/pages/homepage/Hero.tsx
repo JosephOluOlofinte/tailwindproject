@@ -2,10 +2,12 @@
 
 const Hero = () => {
     return (
-        <div>
-            <h1 className="h-screen bg-blue-200 text-gray-900">Hero</h1>
+        <section className="
+        {/*hero section + homepage header*/}
+        h-[150vh] bg-amber-200
+        ">
 
-        </div>
+        </section>
     );
 };
 
