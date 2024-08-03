@@ -10,6 +10,11 @@ import DashHome from "../pages/dashboard/DashHome.tsx";
 import Transactions from "../pages/dashboard/Transactions.tsx";
 import FundWallet from "../pages/dashboard/FundWallet.tsx";
 import Settings from "../pages/dashboard/Settings.tsx";
+import Dashboard2Layout from "../layout/Dashboard2Layout.tsx";
+import MtnDash from "../pages/dashboard2/MtnDash.tsx";
+import MtnPlay from "../pages/dashboard2/MtnPlay.tsx";
+import MtnHelp from "../pages/dashboard2/MtnHelp.tsx";
+import MtnMore from "../pages/dashboard2/MtnMore.tsx";
 
 export const element = createBrowserRouter([
     {
@@ -64,4 +69,27 @@ export const element = createBrowserRouter([
             },
         ]
     },
+    {
+        path: "/dashboard2",
+        element: <Dashboard2Layout/>,
+        children: [
+            {
+                index: true,
+                element: <MtnDash/>
+            },
+            {
+                path:"/dashboard2/play",
+                element: <MtnPlay />
+            },
+            {
+                path:"/dashboard2/help",
+                element: <MtnHelp />
+            },
+            {
+                path:"/dashboard2/more",
+                element: <MtnMore />
+            },
+        ]
+    },
+
 ])
