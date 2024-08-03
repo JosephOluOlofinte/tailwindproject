@@ -10,6 +10,10 @@ export default {
         poppins: ['Poppins', 'sans-serif'],
         witt: ['Wittgenstein', 'serif'],
       },
+
+      backgroundImage: {
+        'heroBg': "url('/src/assets/images/tailwindHero.jpg')",
+      }
     },
   },
   plugins: [],

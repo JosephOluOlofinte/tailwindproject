@@ -4,11 +4,36 @@
 
 @layer base {
     h6 {
-        @apply font-witt
-        @apply text-[18px]
+        @apply font-witt;
+        @apply text-[18px];
+    }
+
+    h5 {
+       @apply font-witt;
+        @apply text-[20px];
+    }
+
+    h4 {
+        @apply font-witt;
+        @apply text-[22px];
+    }
+
+    h3 {
+        @apply font-witt;
+        @apply text-[24px];
+    }
+
+    h2 {
+        @apply font-witt;
+        @apply text-[26px];
+    }
+
+    h1 {
+        @apply font-witt;
+        @apply text-[28px];
     }
 
     body {
-        @apply font-poppins
+        @apply font-poppins;
     }
 }
