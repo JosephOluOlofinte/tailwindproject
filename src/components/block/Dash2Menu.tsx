@@ -1,3 +1,4 @@
+import {NavLink} from "react-router-dom";
 
 
 const Dash2Menu = () => {
@@ -13,10 +14,10 @@ const Dash2Menu = () => {
             h-full w-[90%]
             flex justify-between items-center
             ">
-                <div className="font-witt text-amber-400">Home</div>
-                <div className="font-witt text-amber-400">Play</div>
-                <div className="font-witt text-amber-400">Help</div>
-                <div className="font-witt text-amber-400">More</div>
+                <div className="font-witt text-amber-400"><NavLink to="/dashboard2">Home </NavLink></div>
+                <div className="font-witt text-amber-400"><NavLink to="/dashboard2/play">Play</NavLink></div>
+                <div className="font-witt text-amber-400"><NavLink to="/dashboard2/help">Help</NavLink></div>
+                <div className="font-witt text-amber-400"><NavLink to="/dashboard2/more">More</NavLink></div>
             </div>
         </section>
     )

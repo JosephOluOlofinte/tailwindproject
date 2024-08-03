@@ -13,7 +13,7 @@ const Login = () => {
                     <input className="w-full border-[1px] border-gray-200 rounded-md p-3 h-[40px]" type="email" placeholder="Email" />
                     <input className="w-full border-[1px] border-gray-200 rounded-md p-3 h-[40px]" type="password" placeholder="Password" />
     
-                    <NavLink to="/dashboard">
+                    <NavLink to="/dashboard2">
                         <button type="submit" className="w-full bg-orange-400 rounded-md text-white font-bold h-[40px]">Sign in</button>
                     </NavLink>
                 </form>
