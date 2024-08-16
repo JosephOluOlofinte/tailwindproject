@@ -4,7 +4,8 @@ import { NavLink } from "react-router-dom"
 
 const DashSidebar = () => {
   return (
-    <div className="w-[250px] h-screen flex flex-col justify-between p-10 bg-orange-400 text-white fixed pt-[120px]">
+    <div className="w-[250px] h-screen flex flex-col justify-between 
+    p-10 bg-orange-400 text-white fixed pt-[120px]">
         <div className="text-[20px] flex flex-col gap-8">
             {/* <div className="mb-[25px]">LOGO</div> */}
             

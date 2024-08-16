@@ -13,6 +13,7 @@ export default {
 
       backgroundImage: {
         'heroBg': "url('/src/assets/images/tailwindHero.jpg')",
+        'getdpBg': "url('/src/assets/images/pro-health-conference.jpg')"
       }
     },
   },

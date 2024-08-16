@@ -8,6 +8,7 @@ const Dash2Menu = () => {
         h-[70px] w-full
         flex justify-center items-center
         bg-gray-800
+        fixed bottom-0
         ">
             <div className="
             {/*MENU AREA CONTAINER*/}
